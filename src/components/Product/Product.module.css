@@ -1,0 +1,39 @@
+.product_card {
+  border: 1px solid rgb(228, 228, 228);
+  padding: 25px;
+  position: relative;
+  transition: all 0.5s ease-out;
+}
+
+.product_card > img {
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.product_card:hover > .add_cart {
+  display: block;
+  transition: all 0.5s ease-out;
+}
+.add_cart {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  display: none;
+  transition: all 0.5s ease-out;
+}
+
+.add_cart > button {
+  appearance: 0;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  background-color: #018b80;
+  border-radius: 7px;
+  padding: 9px 21px;
+  color: white;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+.add_cart > button:hover {
+  background-color: #014943;
+}
